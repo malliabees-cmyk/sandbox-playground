@@ -1,0 +1,35 @@
+body {
+    font-family: optima, sans-serif;
+    background-color: aquamarine;
+    color: cadetblue;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+.box {
+    background-color: firebrick;
+    border: upx solid #006d77;
+    padding: 30px;
+    border-radius: 10px;
+}
+.warning {
+    color: purple;
+     font-family: deeppink, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;            /* vertically centered */
+  padding: 16px 24px;
+}
+
+.links {
+  display: flex;   /* flex inside flex! */
+  gap: 24px;
+  list-style: none;
+}
